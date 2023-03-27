@@ -32,6 +32,6 @@ spec:
     app: project 
   type: NodePort
   ports:
-  - protocol: TCP
-    targetPort: 3000
+  - port: 3000
+    protocol: TCP
     nodePort: 31110
